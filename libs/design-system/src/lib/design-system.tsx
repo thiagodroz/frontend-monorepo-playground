@@ -1,20 +1,14 @@
-import React from 'react';
+import { css } from 'styled-components';
 
-import styled from 'styled-components';
+export const ButtonStyles = css`
+  background-color: tomato;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 32px;
 
-/* eslint-disable-next-line */
-export interface DesignSystemProps {}
-
-const StyledDesignSystem = styled.div`
-  color: pink;
 `;
 
-export function DesignSystem(props: DesignSystemProps) {
-  return (
-    <StyledDesignSystem>
-      <h1>Welcome to design-system!</h1>
-    </StyledDesignSystem>
-  );
-}
-
-export default DesignSystem;
+export const ButtonTextStyles = css`
+  color: white;
+  font-weight: bold;
+`;

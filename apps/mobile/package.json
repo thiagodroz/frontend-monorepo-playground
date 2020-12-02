@@ -1,0 +1,15 @@
+{
+  "name": "Mobile",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "react-native": "*",
+    "react": "*",
+    "@testing-library/react-native": "*",
+    "@testing-library/jest-native": "*",
+    "styled-components": "*",
+    "@storybook/react": "*",
+    "@storybook/addon-knobs": "*",
+    "@testing-library/react": "*"
+  }
+}

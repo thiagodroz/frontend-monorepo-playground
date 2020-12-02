@@ -42,6 +42,9 @@
     "design-system-e2e": {
       "tags": [],
       "implicitDependencies": ["design-system"]
+    },
+    "mobile": {
+      "tags": []
     }
   }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { DesignSystem } from '@fake-dev/design-system';
+import { ButtonStyles, ButtonTextStyles } from '@fake-dev/design-system';
 
 const StyledPage = styled.div`
   .app {
@@ -53,12 +53,17 @@ const StyledPage = styled.div`
   }
 `;
 
+const StyledButton = styled.button`
+  ${ButtonStyles}
+  ${ButtonTextStyles}
+`;
+
 export function Index() {
   return (
     <StyledPage>
       <h2>Resources &amp; Tools</h2>
       <p>Thank you for using and showing some ♥ for Nx.</p>
-      <DesignSystem />
+      <StyledButton>My Styled Button</StyledButton>
     </StyledPage>
   );
 }
